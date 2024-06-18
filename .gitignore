@@ -1,0 +1,4 @@
+# Auto generated Typst files (e.g. by LSP on save)
+pages/*.pdf
+chapters/*.pdf
+appendices/*.pdf
