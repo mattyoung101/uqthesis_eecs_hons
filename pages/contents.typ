@@ -1,5 +1,4 @@
 #import "macros.typ": *
-#import "acronyms.typ": *
 //#import "@preview/acrotastic:0.1.0": *
 
 = Contents
@@ -34,4 +33,11 @@
 #pagebreak()
 
 = List of Abbreviations and Symbols
-// TODO
+#let acronyms = yaml("../acronyms.yaml")
+
+#for pair in acronyms.acronyms {
+    let key = pair.keys().at(0);
+    let value = pair.values().at(0);
+    [ - *#key* :  #value ]
+}
+// TODO make this a table
