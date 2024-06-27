@@ -35,9 +35,19 @@
 = List of Abbreviations and Symbols
 #let acronyms = yaml("../acronyms.yaml")
 
-#for pair in acronyms.acronyms {
-    let key = pair.keys().at(0);
-    let value = pair.values().at(0);
-    [ - *#key* :  #value ]
-}
-// TODO make this a table
+#table(
+    columns: (0.5fr, 1fr),
+    inset: 10pt,
+    align: horizon,
+    table.header(
+        [*Abbreviation*], [*Meaning*],
+    ),
+
+    ..for pair in acronyms.acronyms {
+        let key = pair.keys().at(0);
+        let value = pair.values().at(0);
+
+        (key, value)
+    }
+)
+

@@ -5,7 +5,7 @@ title: A novel approach to typesetting a thesis using Typst
 author: Joe Thesis
 
 # Your email
-email: j.thesis69@uqconnect.edu.au
+email: j.thesis69@student.uq.edu.au
 
 # The degrees you currently have
 degrees_current: Bachelor of Computer Science
@@ -24,6 +24,8 @@ unit: REIT4882
 
 # The full name and title of your supervisor
 supervisor: "Associate Professor Mark N. Sweep"
+
+##### You probably don't need to change below here in most cases (for EECS, that is) #####
 
 # The full name of your faculty
 faculty: "Electrical Engineering and Computer Science"
