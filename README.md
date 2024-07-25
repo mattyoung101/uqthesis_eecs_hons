@@ -5,14 +5,16 @@ template provided by UQ.
 Typst is a new typesetting language with many improvements in speed and ease of use over LaTeX. You can read
 more [here](https://typst.app/).
 
-**Important** The template has been specifically tailored for UQ's Electrical Engineering & Computer Science
-(EECS) faculty, but may also be useful in other faculties - especially those which are closely related (e.g.
-SMP). If you're using this template outside of EECS, please be aware that each faculty has slightly different
-requirements, and it's your responsibility to check them carefully before using this template.
+> [!CAUTION]
+> The template has been specifically tailored for UQ's Electrical Engineering & Computer Science
+> (EECS) faculty, but may also be useful in other faculties - especially those which are closely related (e.g.
+> SMP). If you're using this template outside of EECS, please be aware that **each faculty has slightly different
+> requirements**, and it's **your responsibility** to check them carefully before using this template.
 
-**Important** Please also note that this template has not yet been verified as being permissible to submit
-theses in. Until I do so myself, it will have to be your responsibility to verify this template is suitable
-with your faculty and supervisor.
+> [!CAUTION]
+> Please also note that this template has **not yet been verified as being permissible to submit
+> theses in**. Until I do so myself, it will have to be your responsibility to verify this template is suitable
+> with your faculty and supervisor.
 
 ## Instructions
 - Edit your details in `config.yaml`
