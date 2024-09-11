@@ -1,5 +1,3 @@
-#import "macros.typ": *
-
 = Abstract
 
 In this paper, we present a novel approach to writing a thesis at the University of Queensland. Whereas

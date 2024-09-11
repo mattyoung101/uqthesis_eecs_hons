@@ -16,7 +16,7 @@
     // #counter(heading).display( it.numbering )
     text(uqHeaderSize)[* Chapter #counter(heading).display("1") *]
 
-    v(0pt)
+    v(-15pt)
 
     text(uqHeaderSize)[* #it.body * ]
 

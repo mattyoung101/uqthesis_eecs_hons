@@ -1,5 +1,5 @@
 // Main thesis file.
-#import "pages/macros.typ": *
+#import "util/macros.typ": *
 
 // Page layout
 #set page(
@@ -66,16 +66,16 @@
 #show heading.where(level: 1): it => uqHeaderChapter(it)
 
 // Thesis chapters
-#include "chapters/intro.typ"
+#include "pages/chapters/intro.typ"
 #pagebreak()
 
-#include "chapters/method.typ"
+#include "pages/chapters/method.typ"
 #pagebreak()
 
-#include "chapters/results.typ"
+#include "pages/chapters/results.typ"
 #pagebreak()
 
-#include "chapters/conclusion.typ"
+#include "pages/chapters/conclusion.typ"
 #pagebreak()
 
 // Return to headers without chapter numbers
@@ -83,7 +83,7 @@
 #show heading.where(level: 1): it => uqHeaderNoChapter(it)
 
 // Appendices
-#include "appendices/example.typ"
+#include "pages/appendices/example.typ"
 #pagebreak()
 
 // Bibliography

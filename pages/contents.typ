@@ -1,4 +1,4 @@
-#import "macros.typ": *
+#import "../util/macros.typ": *
 //#import "@preview/acrotastic:0.1.0": *
 
 = Contents
