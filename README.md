@@ -5,6 +5,8 @@ similar as possible to the LaTeX template provided by UQ.
 Typst is a new typesetting language with many improvements in speed and ease of use over LaTeX. You can read
 more [here](https://typst.app/).
 
+**Requires Typst >= 0.12**
+
 > [!NOTE]
 > The template has been specifically tailored for UQ's Electrical Engineering & Computer Science
 > (EECS) faculty, but may also be useful in other faculties - especially those which are closely related (e.g.
@@ -47,12 +49,11 @@ relevant note from the original LaTeX template:
 > The Template contains content that is the intellectual property of The University of Queensland, including
 > copyright and protected marks, which must be respected in accordance with applicable laws.
 
-This mainly refers to the files `assets/UQLogo.jpg` and `assets/UQLogo.svg`, which are property of the
-University of Queensland.
+This refers to the UQ logo, which is property of the University of Queensland.
 
 The original LaTeX thesis was GNU GPL 2.0, however, I don't believe this template is a derivative work,
 because I designed it from scratch and it bares no code similarity to the LaTeX template - only visual
-similarity.
+similarity, which I believe is not protected under the GPL.
 
 Despite this, if anyone from UQ disagrees with my reasoning, please contact me: <m.young2@student.uq.edu.au>
 

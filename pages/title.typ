@@ -1,7 +1,7 @@
 #let config = yaml("../config.yaml")
 
 #align(center, [
-    #image("../assets/uqlogo.png", width: 65%)
+    #image("../util/assets/uqlogo.png", width: 65%)
 ])
 
 #v(24pt)
