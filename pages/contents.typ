@@ -18,36 +18,37 @@
         title: none
     )
 ]
-#pagebreak()
 
-= List of Figures
-#outline(
-    title: none,
-    fill: box(width: 1fr, repeat(h(5pt) + "." + h(5pt))) + h(8pt),
-    target: figure,
-)
-#pagebreak()
+#context if counter(figure).final().first() > 0 [
+    #pagebreak()
+    = List of Figures
+    #outline(
+        title: none,
+        fill: box(width: 1fr, repeat(h(5pt) + "." + h(5pt))) + h(8pt),
+        target: figure,
+    )
+]
 
 = List of Tables
 // TODO
 #pagebreak()
 
-= List of Abbreviations and Symbols
 #let acronyms = yaml("../acronyms.yaml")
+#if acronyms != none and acronyms.acronyms != none and acronyms.acronyms.len() > 0 [
+    #pagebreak()
+    = List of Abbreviations and Symbols
+    #table(
+        columns: (0.5fr, 1fr),
+        inset: 10pt,
+        align: horizon,
+        table.header(
+            [*Abbreviation*], [*Meaning*],
+        ),
 
-#table(
-    columns: (0.5fr, 1fr),
-    inset: 10pt,
-    align: horizon,
-    table.header(
-        [*Abbreviation*], [*Meaning*],
-    ),
-
-    ..for pair in acronyms.acronyms {
-        let key = pair.keys().at(0);
-        let value = pair.values().at(0);
-
-        (key, value)
-    }
-)
-
+        ..for pair in acronyms.acronyms {
+            let key = pair.keys().at(0);
+            let value = pair.values().at(0);
+            (key, value)
+        }
+    )
+]
