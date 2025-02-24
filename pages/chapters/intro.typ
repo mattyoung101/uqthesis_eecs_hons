@@ -14,3 +14,6 @@ Check out my citations:
 
 === A novel approach to setting types
 #lorem(100)
+
+== My dog ate my homework
+Factual information.
