@@ -27,7 +27,7 @@
 
 #let appendices(content) = {
     set heading(numbering: (..numbers) => {
-        return "Appendix " + numbering("A.1:", ..numbers)
+        return "Appendix " + numbering("A.1", ..numbers)
     })
     show heading.where(level: 1): it => {
         v(topPadding)

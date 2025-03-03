@@ -1,4 +1,4 @@
-= Example appendix
+= Example appendix <app:example>
 #lorem(100)
 
 ```c
