@@ -1,5 +1,4 @@
-// TODO auto increment "Appendix A, B, etc."
-= Appendix A: Example appendix
+= Example appendix
 #lorem(100)
 
 ```c
