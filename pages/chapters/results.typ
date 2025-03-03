@@ -1,8 +1,12 @@
-= Results
-#lorem(500)
+= Results <chap:results>
+What's good gang, welcome to @chap:results!
 
-== Typst and performance
-#lorem(750)
+Also check out my sick @app:example, and @chap:results:performance
+
+#lorem(100)
+
+== Typst and performance <chap:results:performance>
+#lorem(250)
 
 == Typst and ease of use
-#lorem(600)
+#lorem(200)
