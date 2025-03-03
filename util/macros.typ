@@ -24,3 +24,16 @@
 
     v(bottomPadding)
 }
+
+#let appendices(content) = {
+    set heading(numbering: (..numbers) => {
+        return "Appendix " + numbering("A.1:", ..numbers)
+    })
+    show heading.where(level: 1): it => {
+        v(topPadding)
+        text(uqHeaderSize)[* #counter(heading).display(it.numbering) #it.body *]
+        v(bottomPadding)
+    }
+    counter(heading).update(0)
+    content
+}

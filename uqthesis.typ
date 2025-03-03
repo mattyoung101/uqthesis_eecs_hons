@@ -83,8 +83,12 @@
 #show heading.where(level: 1): it => uqHeaderNoChapter(it)
 
 // Appendices
-#include "pages/appendices/example.typ"
-#pagebreak()
+#appendices[
+    #include "pages/appendices/example.typ"
+    #pagebreak()
+    #include "pages/appendices/other.typ"
+    #pagebreak()
+]
 
 // Bibliography
 #include "pages/bibliography.typ"
