@@ -5,7 +5,7 @@ similar as possible to the LaTeX template provided by UQ.
 Typst is a new typesetting language with many improvements in speed and ease of use over LaTeX. You can read
 more [here](https://typst.app/).
 
-**Requires Typst >= 0.12**
+**Requires Typst >= 0.13**
 
 > [!NOTE]
 > The template has been specifically tailored for UQ's Electrical Engineering & Computer Science
