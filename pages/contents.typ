@@ -42,8 +42,6 @@
     )
 ]
 
-#pagebreak()
-
 #let acronyms = yaml("../acronyms.yaml")
 #if acronyms != none and acronyms.acronyms != none and acronyms.acronyms.len() > 0 [
     #pagebreak()
