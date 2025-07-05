@@ -13,10 +13,10 @@ more [here](https://typst.app/).
 > SMP). If you're using this template outside of EECS, please be aware that **each faculty has slightly different
 > requirements**, and it's **your responsibility** to check them carefully before using this template.
 
-> [!CAUTION]
-> Please also note that this template has **not yet been verified as being permissible to submit
-> theses in**. Until I do so myself, it will have to be your responsibility to verify this template is suitable
-> with your faculty and supervisor.
+## Compatibility
+I used this template to submit my BCompSc(Hons) thesis [TaMaRa](https://github.com/mattyoung101/tamara), which
+received a high distinction and no comments on the template itself. I would say that this template is safe to
+use for EECS in particular. As mentioned above, for other faculties, you will need to check yourself.
 
 ## Instructions
 - Edit your details in `config.yaml`
